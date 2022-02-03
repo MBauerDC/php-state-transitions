@@ -5,5 +5,5 @@ namespace MBauer\phpStateTransitions\contracts;
 
 interface SubjectStateSet
 {
-    
+    public function getSubjectStateByIndex(int $index): SubjectState;
 }

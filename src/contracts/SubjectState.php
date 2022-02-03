@@ -8,6 +8,4 @@ interface SubjectState
     public function getCurrentState(): State;
 
     public function getSubjectData(): SubjectData;
-
-    public function getStateHistory(): ?StateHistory;
 }

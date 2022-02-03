@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 namespace MBauer\phpStateTransitions\contracts;
 
-interface SubjectStateHistory
+interface HasStateHistory
 {
-    
+    public function getStateHistory(): StateHistory;
 }

@@ -5,5 +5,5 @@ namespace MBauer\phpStateTransitions\contracts;
 
 interface DWorkflowSubjectStateRepository extends SubjectStateRepository
 {
-    public function getSubjectState(SubjectIdentifier $identifier, Configuration $configuration): SubjectStateHistory;
+    public function getSubjectState(SubjectIdentifier $identifier, Configuration $configuration): SubjectStateSet & ;
 }

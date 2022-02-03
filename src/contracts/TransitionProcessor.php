@@ -5,5 +5,6 @@ namespace MBauer\phpStateTransitions\contracts;
 
 interface TransitionProcessor
 {
-    
+    public function processTransition(TransitionCandidate $candidate): TransitionResult;
 }
+
